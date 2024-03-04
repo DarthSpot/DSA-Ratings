@@ -25,4 +25,15 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Publish
-      run: dotnet publish -c Release -o publish DSARatings.App/DSARatings.App.csproj --os win --arch x64 --sc
+      run: dotnet publish -c Release -o build DSARatings.App/DSARatings.App.csproj --os win --arch x64 --sc
+    - name: Zip
+      uses: thedoctor0/zip-release@0.7.6
+      with:
+        type: 'zip'
+        filename: 'publish/dsa-ratings.zip'
+        directory: 'build'
+    - name: Publish
+      uses: actions/upload-artifact@v3
+      with:
+        name: DSA Ratings Release
+        path: 'publish'
