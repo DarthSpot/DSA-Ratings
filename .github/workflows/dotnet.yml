@@ -30,10 +30,10 @@ jobs:
       uses: thedoctor0/zip-release@0.7.6
       with:
         type: 'zip'
-        filename: 'publish/dsa-ratings.zip'
+        filename: 'dsa-ratings.zip'
         directory: 'build'
     - name: Publish
       uses: actions/upload-artifact@v3
       with:
         name: DSA Ratings Release
-        path: 'publish'
+        path: 'build'
