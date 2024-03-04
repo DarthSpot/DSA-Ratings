@@ -29,5 +29,5 @@ jobs:
     - name: Publish
       uses: actions/upload-artifact@v3
       with:
-        name: DSA Ratings Release
+        name: DSA Ratings Release (Win x64)
         path: 'build'
