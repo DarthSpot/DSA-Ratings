@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSARatings.App", "DSARatings.App\DSARatings.App.csproj", "{0BCC78DC-603C-4410-8E20-912142ED8D58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSARatings.Core", "DSARating.Core\DSARatings.Core.csproj", "{686A32A2-2029-4F19-A921-C08EEBE2699B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSARatings.Core", "DSARatings.Core\DSARatings.Core.csproj", "{686A32A2-2029-4F19-A921-C08EEBE2699B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

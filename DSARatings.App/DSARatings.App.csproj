@@ -28,7 +28,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DSARating.Core\DSARatings.Core.csproj" />
+      <ProjectReference Include="..\DSARatings.Core\DSARatings.Core.csproj" />
     </ItemGroup>
 
 </Project>
