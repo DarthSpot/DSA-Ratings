@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSARatings.App", "DSARatings.App\DSARatings.App.csproj", "{0BCC78DC-603C-4410-8E20-912142ED8D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSARatings.Core", "DSARating.Core\DSARatings.Core.csproj", "{686A32A2-2029-4F19-A921-C08EEBE2699B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BCC78DC-603C-4410-8E20-912142ED8D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCC78DC-603C-4410-8E20-912142ED8D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCC78DC-603C-4410-8E20-912142ED8D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCC78DC-603C-4410-8E20-912142ED8D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686A32A2-2029-4F19-A921-C08EEBE2699B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686A32A2-2029-4F19-A921-C08EEBE2699B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686A32A2-2029-4F19-A921-C08EEBE2699B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686A32A2-2029-4F19-A921-C08EEBE2699B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
