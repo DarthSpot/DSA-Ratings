@@ -76,7 +76,7 @@ internal class DSAScanner : Scanner<DSAThreadIdentifier>
 
     protected override void PrintProgress(DSAThreadIdentifier item, int current, int total)
     {
-        var percentage = current / total;
+        var percentage = (float)current * 100 / total;
         Console.Write($"\rScanne Forum [{item}] ({current} Threads): {(int)percentage}%    ");
     }
 
@@ -112,8 +112,8 @@ internal class DSAScanner : Scanner<DSAThreadIdentifier>
 
         if (wiki != null)
         {
-            res.Wiki = wiki.Attributes["href"].Value;
-
+            // If newline is in url, then something is wrong - just cut after first newline
+            res.Wiki = wiki.Attributes["href"].Value.Split('\n').First().Replace("&amp;", "&");
         }
 
         return res;
